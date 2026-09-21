@@ -1,0 +1,10 @@
+tensorflow
+gradio
+pandas
+numpy
+# Pinned: the .joblib artifacts were created with 1.6.1 and reference
+# internals that later versions removed.
+scikit-learn==1.6.1
+joblib
+# Required to unpickle callables stored inside preprocessor.joblib.
+dill

@@ -1,0 +1,17 @@
+{
+  "module": "DeepShield Traffic Forecasting",
+  "dataset": "fedesoriano/traffic-prediction-dataset",
+  "junction": 1,
+  "target": "Vehicles",
+  "frequency": "hourly",
+  "lookback_hours": 24,
+  "forecast_horizon_training": 1,
+  "best_model": "LSTM",
+  "selection_criterion": "lowest validation MSE",
+  "test_mae": 4.730693340301514,
+  "test_rmse": 6.510130397352064,
+  "test_r2": 0.9309424161911011,
+  "lstm_best_val_loss": 0.002970650792121887,
+  "gru_best_val_loss": 0.0034582987427711487,
+  "seed": 42
+}

@@ -1,0 +1,76 @@
+# ==========================================
+# DeepShield - .gitignore
+# ==========================================
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.pyc
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# TensorFlow temporary/checkpoint files
+*.ckpt
+checkpoint
+
+# ==========================================
+# OPTIONAL: Ignore large trained ML models
+# ==========================================
+
+# Uncomment these if you DON'T want trained
+# models stored in GitHub.
+# *.keras
+# *.h5
+
+# ==========================================
+# Keep DeepShield deployment artifacts
+# ==========================================
+
+# Currently these are NOT ignored:
+# deepshield_artifacts/
+# deepshield_traffic_artifacts/
+
+# If GitHub rejects them because of file size,
+# uncomment:
+# deepshield_artifacts/*.keras
+# deepshield_traffic_artifacts/*.keras
